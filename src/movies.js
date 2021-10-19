@@ -81,6 +81,7 @@ function turnHoursToMinutes(movies) {
 }
 
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
+// Tentar de novo sem usar loops
 function bestYearAvg(movies) {
   if (movies.length > 0) {
     let years = []
