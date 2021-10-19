@@ -17,7 +17,7 @@ function scoresAverage(movies) {
   if (movies.length){ 
     const scoredMovies = movies.filter(movie => movie.score != null && movie.score != "")
     const avgScore = scoredMovies.reduce((sum, movie) => sum+movie.score, 0)
-    return (avgScore/scoredMovies.length).toFixed(2)*1.00
+    return (avgScore/movies.length).toFixed(2)*1.00
   }
   else return 0
 }
